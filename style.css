@@ -1,0 +1,415 @@
+body{
+    background-color: rgb(239, 238, 238);
+}
+
+
+.head1{
+    background-color: white;
+    padding: 10px 10px 10px 100px;
+    margin: 0px;
+    display: block;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3 rem;
+}
+
+#word1{
+    color: rgb(25, 118, 144);
+}
+
+.add1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 20px;
+    /* width: auto; */
+
+}
+
+a{
+    text-decoration: none; 
+    color: black;
+}
+.link1{
+   
+    display: block;
+ 
+    text-align: end;
+}
+.link2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* ul{
+    list-style-type:none;
+    margin-left: 475px;
+    
+}
+
+li{
+    display: inline-block;
+} */
+
+/* .add1{
+    
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin-left: 500px;
+} */
+
+.button1{
+      border-radius: 50%;
+      background-color:  rgb(25, 118, 144);
+      border: none;
+      color: white;
+      font-size: 25px;
+}
+
+.button2{
+        border-radius: 50%;
+        background-color:  rgb(25, 118, 144);
+        border: none;
+        color: white;
+        font-size: 25px;
+  
+}
+
+.card-grp{
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    margin-left:250px;
+    margin-right:250px
+}
+
+.card{
+    border: white solid;
+    background-color: white;
+    width: 260px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    flex-basis: 285px;
+}
+.card:hover{
+    box-shadow:0px 0px 2px 2px rgb(215, 206, 206);
+}
+
+.para1{
+    color: rgb(25, 118, 144);
+    margin-left: 20px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.label1{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.label2{
+    line-height: 40px;
+}
+
+input{
+  height: 20px;
+  width: 20px;  
+}
+
+.filler{
+    opacity: 0.5;
+    
+}
+
+.newtask{
+    display: flex;
+    flex-flow:  wrap;
+    position: absolute;
+    top: 205px;
+    left: 36%;
+}
+
+.posi{
+    position: relative;
+}
+
+.card1{
+    border: white solid;
+    background-color: white;
+    width: 415px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+#input1{
+    width: 88%;
+    height: 4vh;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color:  rgb(239, 238, 238);
+    border-radius: 4px;
+    padding-left: 15px;
+    border: solid  rgb(239, 238, 238);
+}
+
+.span1{
+    background-color:rgb(25, 118, 144);
+    border-radius: 4px;
+    padding:5px 25px 5px;
+    position: absolute;
+    top: 21vh;
+    right: 3vw;
+}
+
+.para2{
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: auto;
+    
+}
+
+.back1{
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: #453d3d;
+    width: 35px;
+    height: 35px;
+}
+
+.list1{
+    /* position: relative;
+    left: -240px; */
+    display: inline-block;
+    margin-left: 285px;
+}
+
+.list2{
+    /* position: relative;
+    
+    top: 60px; */
+    
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.newcard{
+    
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 30px;
+    /* position: relative;
+    top: 40px;
+    left: 400px; */
+}
+
+.newpara1{
+    color:  rgb(25, 118, 144);
+    text-align: center;
+    font-size: 20px;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+
+.newlabel1{
+    text-decoration: line-through;
+    opacity: 0.5;
+    line-height: 50px;
+}
+
+.newlabel2{
+    line-height: 60px;
+}
+
+.input2{
+    margin-left: 25px;
+}
+
+.card2{
+    border: white solid;
+    background-color: white;
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.lastinput{
+    width: 365px;
+    height: 27px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color:  rgb(239, 238, 238);
+    border-radius: 4px;
+    border: solid  rgb(239, 238, 238);
+}
+
+.span2{
+    background-color: rgb(25, 118, 144);
+    border-radius: 4px;
+    padding:5px 25px 5px;
+    position: relative;
+    top: 20px;
+    left: 263px;
+    
+}
+
+.distance{
+    margin-top: 15px;
+   
+}
+
+.card-grp1{
+    display: flex;
+    flex-flow: column;
+    margin: 0px 36%;
+}
+
+
+.hori{
+    opacity: 0.2;
+}
+
+
+.close{
+    display: inline;
+    position: relative;
+    top: -35px;
+    left: 375px;
+    font-size: xx-large;
+    opacity: 0.5;
+    font-weight: 600;
+}
+
+.line{
+    margin-bottom: -22px;
+}
+
+.close1{
+    display: inline;
+    position: relative;
+    top: -35px;
+    left: 375px;
+    font-size: xx-large;
+    opacity: 0.5;
+    font-weight: 600;
+}
+
+.line1{
+    margin-bottom: -22px;
+}
+
+.next1{
+    float: right;
+}
+ 
+
+    @media only screen and (max-width:545px) {
+        body{
+            font-size: large;
+        }
+
+        .head1{
+            padding-left: 10px;
+            font-size: 3rem;
+        }
+
+        .add1{
+            display: flex;
+            justify-content: center;
+        }
+
+        .button1{
+            font-size: 2rem;
+        }
+
+        
+        .link2{
+            display: none;
+        }
+        .card-grp{
+            display: flex;
+            justify-content: center;
+            margin: 0px
+        }
+
+        .card{
+            width: 93vw;
+            height: 45vh;
+            font-size: 1.7rem;
+           
+        }
+
+        .card1{
+            position: absolute;
+            left: -4.1vw;
+            width: 95vw;
+        
+        }
+        .newcard{
+            width: 95vw;
+        }
+        .span1{
+            width: 25%;
+            position: absolute;
+            top: 20vh;
+
+        }
+        .close{
+            position: relative;
+            /* right: -41vw; */
+            left: 87vw;
+        }
+        .card-grp1{
+            width: 98vw;
+            margin: 0;
+        }
+        .link4{
+            display: none;
+        }
+        .button2{
+            font-size: 2rem;
+            position: relative;
+            right: 40vw;
+        }
+        .card2{
+            width: 96vw;
+        }
+        .newtask{
+            left: 1%;
+        }
+
+        .line1 {
+        width: 90vw;
+        display: flex;
+        height: 3rem;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .close1 {
+    position: static;
+}
+.lastinput {
+    width: 88%;
+    }
+
+    .span2 {
+    left: 56%;
+    /* top: 10px; */
+}
+        }
+    
+    
+    
